@@ -1,211 +1,204 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kunuz Mobile Solution - Home</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+/* General Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
 
-    <h1>Welcome to Kunuz Mobile Solution</h1>
-    <p>Your trusted partner in mobile repair and sales.</p>
+/* Hero Section */
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url('Website background.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
 
-    <footer>
-        <p>&copy; 2024 Kunuz Mobile Solution. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+.hero-content {
+    background: rgba(0, 0, 0, 0.6); /* Dark Overlay */
+    padding: 20px;
+    border-radius: 10px;
+}
 
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFD700; /* Gold Color */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
 
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
 
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background: #ff7e5f;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
 
+.btn:hover {
+    background: #feb47b;
+}
 
+/* Software Section */
+.software-section {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    padding: 40px;
+    border-radius: 20px;
+    margin: 20px;
+}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Kunuz Mobile Solution</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+.software-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
-    <h1>About Us</h1>
-    <p>Kunuz Mobile Solution is dedicated to providing the best mobile repair services and high-quality mobile repair tools.</p>
+.software-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
 
-    <footer>
-        <p>&copy; 2024 Kunuz Mobile Solution. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+<style>
+                
+body {
 
+    font-family: Arial, sans-serif;
 
+    margin: 0;
 
+    padding: 0;
 
+    background: url('https://files.oaiusercontent.com/file-5j9ZNAfNeUnSDvLt7JRKmL?se=2025-03-26T20%3A22%3A01Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3DBackground.jpg&sig=LCM1dxYoCLob2rS/L97XILP23BRFeqlx5gNCO6QPgsA%3D') no-repeat center center fixed;
 
+    background-size: cover;
 
+    color: #fff;
 
+    text-align: center;
 
+}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - Kunuz Mobile Solution</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+header {
 
-    <h1>Our Services</h1>
-    <p>We offer a wide range of mobile repair services, including screen replacement, battery replacement, and more.</p>
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
 
-    <footer>
-        <p>&copy; 2024 Kunuz Mobile Solution. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+    padding: 20px;
 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 
+}
 
+header h1 {
 
+    margin: 0;
 
+    font-size: 2.5rem;
 
+    color: #fff;
 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 
+}
 
+nav ul {
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products - Kunuz Mobile Solution</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    list-style: none;
 
-    <h1>Our Products</h1>
-    <p>We provide high-quality mobile repair tools and accessories at competitive prices.</p>
+    padding: 0;
 
-    <footer>
-        <p>&copy; 2024 Kunuz Mobile Solution. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+}
 
+nav ul li {
 
+    display: inline;
 
+    margin: 0 15px;
 
+}
 
+nav ul li a {
 
+    color: #fff;
 
+    text-decoration: none;
 
+    font-weight: bold;
 
+}
 
+.software-section {
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Kunuz Mobile Solution</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    background: linear-gradient(to right, #00c6ff, #0072ff);
 
-    <h1>Contact Us</h1>
-    <p>Email: kunuzyakob@gmail.com</p>
-    <p>Phone: +251929207521, 0995651427</p>
+    padding: 40px;
 
-    <footer>
-        <p>&copy; 2024 Kunuz Mobile Solution. All rights reserved.</p>
-    </footer>
-</body>
+    border-radius: 20px;
 
-<style media="screen">
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Kunuz Mobile Solution</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    margin: 20px;
 
-    <h1>Contact Us</h1>
-    <p>Email: anaemam@gmail.com</p>
-    <p>Phone: +251929207521, 0995651427</p>
+}
 
-    <footer>
-        <p>&copy; 2024 Kunuz Mobile Solution. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+.software-grid {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+}
+
+.software-card {
+
+    background: rgba(255, 255, 255, 0.2);
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    width: 250px;
+
+    text-align: center;
+
+}
+
+footer {
+
+    background: #222;
+
+    padding: 20px;
+
+    margin-top: 20px;
+
+}
 
 </style>
-
-
-
-
-
-
-
-</html>
